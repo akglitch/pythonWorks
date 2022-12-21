@@ -10,5 +10,9 @@ def is_prime(num):
     return True
 print(is_prime(5))
 
-
+def check_prime():
+    for i in range(101):
+        if is_prime(i):
+            print(i)
+check_prime()
 
